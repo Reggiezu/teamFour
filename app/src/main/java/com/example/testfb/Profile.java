@@ -42,8 +42,7 @@ public class Profile extends AppCompatActivity {
         buttonOne.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 System.out.println("Button Clicked");
-                Intent intent = new Intent(getApplicationContext(),meditation.class);
-                startActivity(intent);
+
             }
         });
 
